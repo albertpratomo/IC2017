@@ -1,0 +1,16 @@
+td > .number{
+	font-size: 30px;
+	font-weight:bold;
+}
+td > .title{
+	font-size: 16px;
+}
+td >.red{
+	color: #d70206;
+}
+td > .green{
+	color: #1abc9c;
+}
+td > .yellow{
+	color: #f4c63d;
+}

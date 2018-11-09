@@ -1,0 +1,93 @@
+/*GENERAL*/
+.mt2{
+	margin-top: 2em;
+}
+.mt5{
+	margin-top: 5em;
+}
+.mt7{
+	margin-top: 7em;
+}
+.img-center {
+	margin:0 auto;
+}
+.radio-inline{
+	padding-left: 0;
+	padding-right:20px; 
+}
+tbody > tr > td > input{
+	width: 100%;
+} 
+/*MODAL*/
+.modal-header{
+	padding: 10px 13px 7px 13px; 
+}
+.modal-body, .modal-footer{
+	padding: 13px;
+}
+#modal-isi{
+	margin-top:-13px;
+}
+.modal-body > table{
+	margin:0;
+}
+#modalLogin > .modal-dialog{
+    width: 400px;
+    margin-top: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mPinjaman > .modal-dialog{
+    margin-top: 10em;
+}
+/*BOOTSTRAP TOGGLE*/
+.toggle-group > span{
+	background-color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+.toggle-group > span:hover{
+	background-color: #DDDDDD;
+	border-color: #DDDDDD;
+}
+/*BOOTSTRAP SELECT*/
+.bootstrap-select > .dropdown-toggle{
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: #dce4ec;	
+}
+/*.open>.dropdown-toggle.btn-default{
+	color: #000000;
+	background-color: #FFFFFF;
+	border-color: #000000;	
+}*/
+/*PAGINATION*/
+.pagination > li > a,
+.pagination > li > span {
+  padding: 6px 9px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+thead > tr > th{
+	background-color: #2c3e50;
+	color: #FFFFFF;	
+}
+td > span.glyphicon{
+	color: #000000;
+	cursor: pointer;
+} 
+.glyphicon-pencil:hover,.glyphicon-tags:hover,.glyphicon-shopping-cart:hover{
+	color: #18bc9c;
+}
+.glyphicon-remove:hover{
+	color: #d62c1a;
+} 
